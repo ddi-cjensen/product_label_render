@@ -17,19 +17,19 @@ rev= input(prompt2)
 
 # Insert the text with the custom font
 page.insert_text(
-    (239, 353),                      # X, Y position in points
+    (235, 351),                      # X, Y position in points
     pn,                 # The text
     fontfile=font_path,           # Path to font file
-    fontsize=15.0,                 # Font size
+    fontsize=17.0,                 # Font size
     color=(0, 0, 0)               # RGB color (black)
 )
 
 # Insert the text with the custom font
 page.insert_text(
-    (428, 354),                      # X, Y position in points
+    (425, 351),                      # X, Y position in points
     rev,                 # The text
     fontfile=font_path,           # Path to font file
-    fontsize=15.0,                 # Font size
+    fontsize=17.0,                 # Font size
     color=(0, 0, 0)               # RGB color (black)
 )
 
